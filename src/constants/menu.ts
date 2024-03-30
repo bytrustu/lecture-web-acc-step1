@@ -60,5 +60,10 @@ export const MENU_ITEMS: MenuItem[] = [
       { id: 5.4, label: '리뷰 관리', link: '#' },
     ],
   },
-  { id: 6, label: '장바구니', link: '/cart' },
+  {
+    id: 6,
+    label: '상품구입',
+    link: '#',
+    subMenu: [{ id: 6.1, label: '장바구니', link: '/cart' }],
+  },
 ];
