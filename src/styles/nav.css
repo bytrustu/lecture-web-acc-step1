@@ -42,12 +42,6 @@ header {
   text-decoration: none;
 }
 
-.nav-menu > a:focus,
-.sub-menu a:focus {
-  outline: 2px solid #000;
-  background-color: #f0f0f0;
-}
-
 .sub-menu {
   display: block;
   width: auto;
